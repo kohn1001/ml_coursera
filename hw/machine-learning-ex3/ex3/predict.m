@@ -28,7 +28,9 @@ z3 = a2*Theta2';
 a3 = sigmoid(z3);
 
 [x, p] = max(a3, [], 2);
-
+printf('p is %f\n', p )
+printf('x is %f\n', x )
+size(p)
 
 
 
